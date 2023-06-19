@@ -8,13 +8,13 @@ import lombok.ToString;
 @Getter
 @ToString
 public class DashboardDataRequestDTO {
-    private Integer endYear;
-    private String topic;
-    private String sector;
-    private String region;
-    private String pestle;
-    private String swat;
-    private String source;
-    private String country;
-    private String city;
+    private Integer[] endYear;
+    private String[] topic;
+    private String[] sector;
+    private String[] region;
+    private String[] pestle;
+    private String[] swat;
+    private String[] source;
+    private String[] country;
+    private String[] city;
 }

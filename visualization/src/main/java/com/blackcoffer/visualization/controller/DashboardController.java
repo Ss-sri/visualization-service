@@ -19,6 +19,8 @@ public class DashboardController {
 
     @GetMapping("/dashboard")
     List<Data> getDashboardData(DashboardDataRequestDTO dataRequestDTO) {
+        System.out.println("=================== * Request * ===================");
+        System.out.println(dataRequestDTO);
         return dashboardService.getDashboardData(dataRequestDTO);
     }
 }
